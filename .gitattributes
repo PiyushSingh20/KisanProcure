@@ -125,7 +125,7 @@
 *.jar                filter=lfs diff=lfs merge=lfs -text
 *.war                filter=lfs diff=lfs merge=lfs -text
 *.ear                filter=lfs diff=lfs merge=lfs -text
-*.apk                filter=lfs diff=lfs merge=lfs -text
+*.apk                binary
 *.ipa                filter=lfs diff=lfs merge=lfs -text
 *.deb                filter=lfs diff=lfs merge=lfs -text
 *.rpm                filter=lfs diff=lfs merge=lfs -text

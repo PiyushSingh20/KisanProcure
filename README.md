@@ -8,12 +8,23 @@
 [![Vite](https://img.shields.io/badge/Vite-8.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Capacitor](https://img.shields.io/badge/Capacitor-Android_Native-119EFF?logo=capacitor&logoColor=white)](https://capacitorjs.com/)
+[![Android APK](https://img.shields.io/badge/Download-Android_APK_(4.9MB)-3DDC84?logo=android&logoColor=white)](https://raw.githubusercontent.com/PiyushSingh20/KisanProcure/main/apk/KisanProcure.apk)
 [![NestJS](https://img.shields.io/badge/NestJS-10.0-E0234E?logo=nestjs&logoColor=white)](https://nestjs.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?logo=prisma&logoColor=white)](https://www.prisma.io/)
 [![Redis](https://img.shields.io/badge/Redis-Cache_%26_Queue-DC382D?logo=redis&logoColor=white)](https://redis.io/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+## 📲 Download Android APK
+
+The ready-to-install Android application package is included directly in this repository:
+
+- 🚀 **[Download KisanProcure.apk (Direct Download)](https://raw.githubusercontent.com/PiyushSingh20/KisanProcure/main/apk/KisanProcure.apk)** *(4.91 MB, ready to install on Android 7.0+)*
+- 📂 **Repo Locations**: [`apk/KisanProcure.apk`](apk/KisanProcure.apk) and [`KisanProcure.apk`](KisanProcure.apk)
+- 📖 **Installation Instructions**: See the [APK Directory Guide](apk/README.md) or full [Android APK Guide](ANDROID_APK_GUIDE.md).
 
 ---
 
