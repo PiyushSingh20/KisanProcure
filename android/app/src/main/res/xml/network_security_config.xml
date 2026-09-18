@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  KisanProcure Network Security Configuration
+  
+  DEVELOPMENT: Allows cleartext HTTP to 10.0.2.2 (Android emulator → host machine)
+               and 192.168.x.x (local network devices)
+  PRODUCTION:  All connections require HTTPS (enforced by Android OS)
+  
+  When building the production APK, set VITE_API_URL to your HTTPS backend URL.
+-->
+<network-security-config>
+    <!-- Trust all CAs for production HTTPS connections -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- DEV ONLY: Allow cleartext to Android emulator loopback (maps to host localhost) -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.0.2.2</domain>
+    </domain-config>
+
+    <!-- DEV ONLY: Allow cleartext to host machine on local network via USB debugging -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">192.168.1.1</domain>
+        <domain includeSubdomains="false">192.168.0.1</domain>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,12 @@
+node:internal/modules/run_main:76
+  const type = getNearestParentPackageJSONType(mainPath);
+               ^
+
+Error: Invalid package config \\?\C:\Users\ASUS\kisanprocure-backend\package.json.
+    at shouldUseESMLoader (node:internal/modules/run_main:76:16)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:147:20)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'ERR_INVALID_PACKAGE_CONFIG'
+}
+
+Node.js v24.19.0

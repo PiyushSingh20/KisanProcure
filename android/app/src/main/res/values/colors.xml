@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- KisanProcure Brand Colors -->
+    <color name="colorPrimary">#1e5c33</color>
+    <color name="colorPrimaryDark">#16432a</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorBackground">#f5f7f3</color>
+    <color name="colorSplashBackground">#1e5c33</color>
+    <color name="ic_launcher_background">#1e5c33</color>
+</resources>

@@ -1,0 +1,37 @@
+
+> figma-make-app@1.0.0 build
+> vite build
+
+[33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vite.config.js:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.[39m
+[36mvite v8.3.0 [32mbuilding client environment for production...[36m[39m
+transforming...
+✓ 77 modules transformed.
+[31m✗[39m Build failed in 1.28s
+[31merror during build:
+[31mBuild failed with 1 error:
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve './pages/farmer/Payment' in src/routes.js
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/routes.js:13:21 [38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m13 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249my[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"./pages/farmer/Payment"[38;5;249m;[0m
+ [38;5;240m   │[0m                     ────────────┬───────────  
+ [38;5;240m   │[0m                                 ╰───────────── Module not found.
+ [38;5;240m   │[0m 
+ [38;5;240m   │[0m [38;5;115mHelp[0m: 'src/routes.js' is imported by the following path:
+ [38;5;240m   │[0m         - src/routes.js
+ [38;5;240m   │[0m         - src/App.js
+ [38;5;240m   │[0m         - src/main.tsx
+ [38;5;240m   │[0m         - index.html
+[38;5;246m────╯[0m
+[31m
+    at aggregateBindingErrorsIntoJsError (file:///C:/Users/ASUS/kisanprocure-backend/node_modules/rolldown/dist/shared/error-CRNyaqoL.mjs:48:18)
+    at unwrapBindingResult (file:///C:/Users/ASUS/kisanprocure-backend/node_modules/rolldown/dist/shared/error-CRNyaqoL.mjs:18:128)
+    at #build (file:///C:/Users/ASUS/kisanprocure-backend/node_modules/rolldown/dist/shared/rolldown-B-jRyK4b.mjs:133:34)
+    at async buildEnvironment (file:///C:/Users/ASUS/kisanprocure-backend/node_modules/vite/dist/node/chunks/node.js:34082:66)
+    at async Object.build (file:///C:/Users/ASUS/kisanprocure-backend/node_modules/vite/dist/node/chunks/node.js:34503:19)
+    at async Object.buildApp (file:///C:/Users/ASUS/kisanprocure-backend/node_modules/vite/dist/node/chunks/node.js:34500:153)
+    at async CAC.<anonymous> (file:///C:/Users/ASUS/kisanprocure-backend/node_modules/vite/dist/node/cli.js:780:3) {
+  errors: [Getter/Setter]
+}[39m

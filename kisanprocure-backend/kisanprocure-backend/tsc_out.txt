@@ -1,0 +1,1191 @@
+src/admins/admins.controller.ts(11,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/admins/admins.controller.ts(12,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/admins/admins.controller.ts(17,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/admins/admins.controller.ts(34,22): error TS1206: Decorators are not valid here.
+src/admins/admins.controller.ts(41,25): error TS1206: Decorators are not valid here.
+src/admins/admins.controller.ts(41,46): error TS1206: Decorators are not valid here.
+src/admins/admins.controller.ts(63,5): error TS1206: Decorators are not valid here.
+src/admins/admins.controller.ts(64,5): error TS1206: Decorators are not valid here.
+src/admins/admins.controller.ts(65,5): error TS1206: Decorators are not valid here.
+src/admins/admins.controller.ts(74,18): error TS1206: Decorators are not valid here.
+src/admins/admins.controller.ts(81,16): error TS1206: Decorators are not valid here.
+src/admins/admins.controller.ts(81,56): error TS1206: Decorators are not valid here.
+src/admins/admins.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/admins/admins.service.ts(1,47): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/admins/admins.service.ts(3,23): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/admins/admins.service.ts(14,24): error TS2339: Property 'admin' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(21,24): error TS2339: Property 'admin' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(44,19): error TS2339: Property 'admin' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(53,19): error TS2339: Property 'admin' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(60,37): error TS2339: Property 'admin' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(65,24): error TS2339: Property 'admin' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(86,19): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(87,19): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(88,19): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(89,19): error TS2339: Property 'admin' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(90,19): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(91,19): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(92,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(93,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(94,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(95,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(96,19): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(105,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(106,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(107,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/admins/admins.service.ts(108,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/agents/agents.controller.ts(10,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/agents/agents.controller.ts(11,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/agents/agents.controller.ts(16,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/agents/agents.controller.ts(19,3): error TS2564: Property 'agentType' has no initializer and is not definitely assigned in the constructor.
+src/agents/agents.controller.ts(20,3): error TS2564: Property 'taskType' has no initializer and is not definitely assigned in the constructor.
+src/agents/agents.controller.ts(34,21): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(34,42): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(35,54): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/agents/agents.controller.ts(49,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(50,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(66,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(67,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(68,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(69,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(71,54): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/agents/agents.controller.ts(91,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(92,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(93,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(94,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(95,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(97,54): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/agents/agents.controller.ts(115,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(116,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(128,20): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(128,41): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(129,54): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/agents/agents.controller.ts(148,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(166,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(167,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(168,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(187,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(188,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(189,5): error TS1206: Decorators are not valid here.
+src/agents/agents.controller.ts(190,5): error TS1206: Decorators are not valid here.
+src/agents/agents.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/agents/orchestrator/agent-orchestrator.service.ts(1,57): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/agents/orchestrator/agent-orchestrator.service.ts(11,61): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/agents/orchestrator/agent-orchestrator.service.ts(62,36): error TS2339: Property 'agentTask' does not exist on type 'PrismaService'.
+src/agents/orchestrator/agent-orchestrator.service.ts(110,25): error TS2339: Property 'agentTask' does not exist on type 'PrismaService'.
+src/agents/orchestrator/agent-orchestrator.service.ts(122,27): error TS2339: Property 'agentPrediction' does not exist on type 'PrismaService'.
+src/agents/orchestrator/agent-orchestrator.service.ts(142,25): error TS2339: Property 'agentTask' does not exist on type 'PrismaService'.
+src/agents/orchestrator/agent-orchestrator.service.ts(146,18): error TS18046: 'error' is of type 'unknown'.
+src/agents/orchestrator/agent-orchestrator.service.ts(152,58): error TS18046: 'error' is of type 'unknown'.
+src/agents/orchestrator/agent-orchestrator.service.ts(184,19): error TS2339: Property 'agentTask' does not exist on type 'PrismaService'.
+src/agents/orchestrator/agent-orchestrator.service.ts(190,19): error TS2339: Property 'agentTask' does not exist on type 'PrismaService'.
+src/agents/orchestrator/agent-orchestrator.service.ts(209,45): error TS2339: Property 'agentTask' does not exist on type 'PrismaService'.
+src/agents/orchestrator/agent-orchestrator.service.ts(215,44): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/agents/orchestrator/agent-orchestrator.service.ts(216,41): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/agents/orchestrator/agent-orchestrator.service.ts(218,30): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/agents/orchestrator/agent-orchestrator.service.ts(218,62): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/agents/orchestrator/agent-orchestrator.service.ts(218,67): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/agents/orchestrator/agent-orchestrator.service.ts(221,30): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/agents/orchestrator/agent-orchestrator.service.ts(221,57): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/agents/orchestrator/agent-orchestrator.service.ts(221,62): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/analytics/analytics.controller.ts(9,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/analytics/analytics.controller.ts(10,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/analytics/analytics.controller.ts(16,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/analytics/analytics.controller.ts(54,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(55,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(56,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(69,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(70,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(83,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(84,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(85,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(98,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(99,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(112,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(113,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(126,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(127,5): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(135,24): error TS1206: Decorators are not valid here.
+src/analytics/analytics.controller.ts(136,58): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/analytics/analytics.controller.ts(148,25): error TS1206: Decorators are not valid here.
+src/analytics/analytics.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/analytics/analytics.service.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/analytics/analytics.service.ts(3,77): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/analytics/analytics.service.ts(25,19): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(26,19): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(27,19): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(28,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(29,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(30,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(31,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(32,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(33,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(34,19): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(35,19): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(59,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(79,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(80,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(81,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(82,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(84,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(87,48): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(87,53): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(88,46): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(88,51): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(89,47): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(90,49): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(90,54): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(97,45): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(101,43): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(117,39): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(123,19): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(143,38): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(147,41): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(147,46): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(165,38): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(170,47): error TS7006: Parameter 'acc' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(170,52): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(176,24): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(176,29): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(180,24): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(180,29): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(201,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(202,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(203,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(204,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(209,42): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(210,38): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(211,42): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(224,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(225,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(226,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(227,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(230,48): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(230,53): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(231,46): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(231,51): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(237,40): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(238,38): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(239,42): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(252,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(253,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(254,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(257,42): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(257,47): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(258,45): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(258,96): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(258,101): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(265,42): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(270,38): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(276,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(277,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(278,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(279,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(280,19): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/analytics/analytics.service.ts(283,48): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(283,53): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(284,46): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(284,51): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(285,39): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(285,90): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(285,95): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(293,55): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/analytics.service.ts(294,28): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/analytics/impact-analytics.service.ts(23,19): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(24,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(25,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(28,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(29,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(70,47): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(84,50): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(84,55): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(95,44): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(109,47): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(109,52): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(127,43): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(128,39): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(133,39): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(147,42): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(163,37): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(170,41): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(170,46): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(171,39): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(171,44): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(177,38): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(183,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(184,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(185,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/analytics/impact-analytics.service.ts(188,43): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(190,33): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(190,38): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(193,48): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(193,53): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(194,46): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(194,51): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(195,39): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(195,78): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/analytics/impact-analytics.service.ts(195,83): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/app.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/app.module.ts(2,30): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/app.module.ts(26,27): error TS2307: Cannot find module '@nestjs/jwt' or its corresponding type declarations.
+src/auth/auth.controller.ts(10,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/auth/auth.controller.ts(11,67): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/auth/auth.controller.ts(16,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/auth/auth.controller.ts(19,3): error TS2564: Property 'mobileNumber' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(23,3): error TS2564: Property 'mobileNumber' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(24,3): error TS2564: Property 'otp' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(28,3): error TS2564: Property 'mobileNumber' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(29,3): error TS2564: Property 'firstName' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(30,3): error TS2564: Property 'lastName' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(46,3): error TS2564: Property 'mobileNumber' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(47,3): error TS2564: Property 'firstName' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(48,3): error TS2564: Property 'lastName' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(49,3): error TS2564: Property 'employeeId' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(56,3): error TS2564: Property 'mobileNumber' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(57,3): error TS2564: Property 'password' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(61,3): error TS2564: Property 'password' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(65,3): error TS2564: Property 'refreshToken' has no initializer and is not definitely assigned in the constructor.
+src/auth/auth.controller.ts(76,17): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(84,19): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(92,24): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(102,25): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(110,15): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(118,21): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(118,42): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(128,23): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(136,16): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(136,37): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(145,19): error TS1206: Decorators are not valid here.
+src/auth/auth.controller.ts(154,20): error TS1206: Decorators are not valid here.
+src/auth/auth.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/auth/auth.module.ts(2,27): error TS2307: Cannot find module '@nestjs/jwt' or its corresponding type declarations.
+src/auth/auth.module.ts(3,32): error TS2307: Cannot find module '@nestjs/passport' or its corresponding type declarations.
+src/auth/auth.module.ts(4,45): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/auth/auth.service.ts(1,78): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/auth/auth.service.ts(2,28): error TS2307: Cannot find module '@nestjs/jwt' or its corresponding type declarations.
+src/auth/auth.service.ts(3,31): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/auth/auth.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+src/auth/auth.service.ts(7,34): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/auth/auth.service.ts(35,44): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(68,34): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(73,32): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(87,25): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(118,44): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(127,49): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(137,36): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(181,44): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(189,48): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(197,36): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(225,36): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(251,23): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(258,39): error TS2339: Property 'session' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(271,23): error TS2339: Property 'session' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(284,25): error TS2339: Property 'session' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(289,25): error TS2339: Property 'session' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(297,23): error TS2339: Property 'session' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(304,36): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(339,23): error TS2339: Property 'session' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(351,23): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/auth/auth.service.ts(367,37): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/auth/strategies/jwt.strategy.ts(1,51): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/auth/strategies/jwt.strategy.ts(2,34): error TS2307: Cannot find module '@nestjs/passport' or its corresponding type declarations.
+src/auth/strategies/jwt.strategy.ts(3,38): error TS2307: Cannot find module 'passport-jwt' or its corresponding type declarations.
+src/auth/strategies/jwt.strategy.ts(4,31): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/auth/strategies/jwt.strategy.ts(6,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/bookings/bookings.controller.ts(13,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/bookings/bookings.controller.ts(14,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/bookings/bookings.controller.ts(19,37): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/bookings/bookings.controller.ts(22,3): error TS2564: Property 'centerId' has no initializer and is not definitely assigned in the constructor.
+src/bookings/bookings.controller.ts(23,3): error TS2564: Property 'cropId' has no initializer and is not definitely assigned in the constructor.
+src/bookings/bookings.controller.ts(24,3): error TS2564: Property 'slotId' has no initializer and is not definitely assigned in the constructor.
+src/bookings/bookings.controller.ts(25,3): error TS2564: Property 'quantity' has no initializer and is not definitely assigned in the constructor.
+src/bookings/bookings.controller.ts(41,16): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(41,37): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(42,57): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/bookings/bookings.controller.ts(56,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(57,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(58,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(59,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(61,57): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/bookings/bookings.controller.ts(72,18): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(72,58): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(77,57): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/bookings/bookings.controller.ts(87,29): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(97,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(98,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(108,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(109,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(110,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(112,57): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/bookings/bookings.controller.ts(133,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(134,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(135,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(136,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(137,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(138,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(139,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.controller.ts(140,5): error TS1206: Decorators are not valid here.
+src/bookings/bookings.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/bookings/bookings.service.ts(1,95): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/bookings/bookings.service.ts(4,61): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/bookings/bookings.service.ts(5,30): error TS2307: Cannot find module 'uuid' or its corresponding type declarations.
+src/bookings/bookings.service.ts(24,38): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(29,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(34,36): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(39,36): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(56,42): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(58,49): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(67,47): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(78,35): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(87,39): error TS2339: Property '$transaction' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(87,59): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+src/bookings/bookings.service.ts(125,37): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(132,24): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(146,24): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(177,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(184,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(191,39): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(196,24): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(204,39): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(217,36): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(222,35): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(226,24): error TS2339: Property '$transaction' does not exist on type 'PrismaService'.
+src/bookings/bookings.service.ts(226,44): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+src/center-agent/center-recommendation.agent.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/center-agent/center-recommendation.agent.ts(5,49): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/center-agent/center-recommendation.agent.ts(49,39): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/center-agent/center-recommendation.agent.ts(145,40): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/center-agent/center-recommendation.agent.ts(156,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.controller.ts(12,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/centers/centers.controller.ts(13,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/centers/centers.controller.ts(18,36): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/centers/centers.controller.ts(21,3): error TS2564: Property 'code' has no initializer and is not definitely assigned in the constructor.
+src/centers/centers.controller.ts(22,3): error TS2564: Property 'name' has no initializer and is not definitely assigned in the constructor.
+src/centers/centers.controller.ts(23,3): error TS2564: Property 'address' has no initializer and is not definitely assigned in the constructor.
+src/centers/centers.controller.ts(25,3): error TS2564: Property 'district' has no initializer and is not definitely assigned in the constructor.
+src/centers/centers.controller.ts(26,3): error TS2564: Property 'state' has no initializer and is not definitely assigned in the constructor.
+src/centers/centers.controller.ts(27,3): error TS2564: Property 'pincode' has no initializer and is not definitely assigned in the constructor.
+src/centers/centers.controller.ts(57,3): error TS2564: Property 'counterNumber' has no initializer and is not definitely assigned in the constructor.
+src/centers/centers.controller.ts(75,16): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(90,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(91,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(92,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(93,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(94,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(95,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(96,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(108,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(109,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(110,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(119,18): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(131,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(132,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(143,16): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(143,56): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(153,16): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(164,20): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(164,60): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(175,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(176,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(177,5): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(188,23): error TS1206: Decorators are not valid here.
+src/centers/centers.controller.ts(188,63): error TS1206: Decorators are not valid here.
+src/centers/centers.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/centers/centers.service.ts(1,66): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/centers/centers.service.ts(3,64): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/centers/centers.service.ts(50,44): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(57,24): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(80,24): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(95,24): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(129,19): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(136,19): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(143,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(150,24): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(161,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(166,23): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(173,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(178,40): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(185,24): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(194,39): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(201,24): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(208,39): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(215,23): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(219,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(237,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(240,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(243,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(247,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(256,19): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(262,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/centers/centers.service.ts(294,24): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/common/database/prisma.module.ts(1,32): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/common/database/prisma.service.ts(1,67): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/common/database/prisma.service.ts(2,30): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/common/database/prisma.service.ts(20,16): error TS2339: Property '$connect' does not exist on type 'PrismaService'.
+src/common/database/prisma.service.ts(25,16): error TS2339: Property '$disconnect' does not exist on type 'PrismaService'.
+src/common/database/redis.module.ts(1,32): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/common/database/redis.service.ts(1,67): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/common/database/redis.service.ts(2,31): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/common/database/redis.service.ts(3,19): error TS2307: Cannot find module 'ioredis' or its corresponding type declarations.
+src/common/database/redis.service.ts(24,30): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/common/database/redis.service.ts(32,34): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/common/database/redis.service.ts(144,31): error TS7006: Parameter 'ch' implicitly has an 'any' type.
+src/common/database/redis.service.ts(144,35): error TS7006: Parameter 'msg' implicitly has an 'any' type.
+src/common/decorators/roles.decorator.ts(1,29): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/common/decorators/roles.decorator.ts(2,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/common/filters/http-exception.filter.ts(8,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/common/filters/http-exception.filter.ts(9,35): error TS2307: Cannot find module 'express' or its corresponding type declarations.
+src/common/filters/http-exception.filter.ts(26,16): error TS18046: 'exception' is of type 'unknown'.
+src/common/filters/http-exception.filter.ts(27,33): error TS18046: 'exception' is of type 'unknown'.
+src/common/filters/http-exception.filter.ts(31,29): error TS18046: 'exception' is of type 'unknown'.
+src/common/filters/http-exception.filter.ts(32,35): error TS18046: 'exception' is of type 'unknown'.
+src/common/filters/http-exception.filter.ts(36,16): error TS18046: 'exception' is of type 'unknown'.
+src/common/guards/jwt-auth.guard.ts(1,59): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/common/guards/jwt-auth.guard.ts(2,28): error TS2307: Cannot find module '@nestjs/jwt' or its corresponding type declarations.
+src/common/guards/jwt-auth.guard.ts(3,31): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/common/guards/roles.guard.ts(1,59): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/common/guards/roles.guard.ts(2,27): error TS2307: Cannot find module '@nestjs/core' or its corresponding type declarations.
+src/common/guards/roles.guard.ts(4,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/common/guards/roles.guard.ts(25,32): error TS7006: Parameter 'role' implicitly has an 'any' type.
+src/common/interceptors/logging.interceptor.ts(7,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/common/interceptors/logging.interceptor.ts(8,28): error TS2307: Cannot find module 'rxjs' or its corresponding type declarations.
+src/common/interceptors/logging.interceptor.ts(9,21): error TS2307: Cannot find module 'rxjs/operators' or its corresponding type declarations.
+src/common/interceptors/logging.interceptor.ts(10,25): error TS2307: Cannot find module 'express' or its corresponding type declarations.
+src/common/interceptors/logging.interceptor.ts(31,17): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/common/interceptors/transform.interceptor.ts(6,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/common/interceptors/transform.interceptor.ts(7,28): error TS2307: Cannot find module 'rxjs' or its corresponding type declarations.
+src/common/interceptors/transform.interceptor.ts(8,21): error TS2307: Cannot find module 'rxjs/operators' or its corresponding type declarations.
+src/common/interceptors/transform.interceptor.ts(25,12): error TS7006: Parameter 'data' implicitly has an 'any' type.
+src/complaints/complaints.controller.ts(12,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/complaints/complaints.controller.ts(13,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/complaints/complaints.controller.ts(18,39): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/complaints/complaints.controller.ts(24,3): error TS2564: Property 'subject' has no initializer and is not definitely assigned in the constructor.
+src/complaints/complaints.controller.ts(25,3): error TS2564: Property 'description' has no initializer and is not definitely assigned in the constructor.
+src/complaints/complaints.controller.ts(46,16): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(46,37): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(47,59): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/complaints/complaints.controller.ts(61,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(62,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(63,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(64,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(66,59): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/complaints/complaints.controller.ts(82,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(83,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(84,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(85,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(87,60): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/complaints/complaints.controller.ts(98,18): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(98,58): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(103,59): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/complaints/complaints.controller.ts(113,31): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(123,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(124,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(125,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(142,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(143,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(144,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(145,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(146,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.controller.ts(147,5): error TS1206: Decorators are not valid here.
+src/complaints/complaints.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/complaints/complaints.service.ts(1,76): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/complaints/complaints.service.ts(3,50): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/complaints/complaints.service.ts(29,38): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/complaints/complaints.service.ts(36,41): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/complaints/complaints.service.ts(51,23): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/complaints/complaints.service.ts(68,37): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/complaints/complaints.service.ts(75,24): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/complaints/complaints.service.ts(82,24): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/complaints/complaints.service.ts(106,19): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/complaints/complaints.service.ts(113,19): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/complaints/complaints.service.ts(120,41): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/complaints/complaints.service.ts(137,39): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/complaints/complaints.service.ts(144,25): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/crops/crops.controller.ts(12,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/crops/crops.controller.ts(13,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/crops/crops.controller.ts(18,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/crops/crops.controller.ts(21,3): error TS2564: Property 'code' has no initializer and is not definitely assigned in the constructor.
+src/crops/crops.controller.ts(22,3): error TS2564: Property 'name' has no initializer and is not definitely assigned in the constructor.
+src/crops/crops.controller.ts(55,16): error TS1206: Decorators are not valid here.
+src/crops/crops.controller.ts(68,5): error TS1206: Decorators are not valid here.
+src/crops/crops.controller.ts(69,5): error TS1206: Decorators are not valid here.
+src/crops/crops.controller.ts(70,5): error TS1206: Decorators are not valid here.
+src/crops/crops.controller.ts(71,5): error TS1206: Decorators are not valid here.
+src/crops/crops.controller.ts(72,5): error TS1206: Decorators are not valid here.
+src/crops/crops.controller.ts(81,26): error TS1206: Decorators are not valid here.
+src/crops/crops.controller.ts(89,18): error TS1206: Decorators are not valid here.
+src/crops/crops.controller.ts(99,16): error TS1206: Decorators are not valid here.
+src/crops/crops.controller.ts(99,56): error TS1206: Decorators are not valid here.
+src/crops/crops.controller.ts(109,16): error TS1206: Decorators are not valid here.
+src/crops/crops.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/crops/crops.service.ts(1,66): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/crops/crops.service.ts(3,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/crops/crops.service.ts(34,44): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crops/crops.service.ts(39,24): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crops/crops.service.ts(55,24): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crops/crops.service.ts(65,24): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crops/crops.service.ts(91,19): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crops/crops.service.ts(97,19): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crops/crops.service.ts(104,36): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crops/crops.service.ts(109,24): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crops/crops.service.ts(116,36): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crops/crops.service.ts(121,23): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crops/crops.service.ts(128,24): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/crowd-agent/crowd-prediction.agent.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/crowd-agent/crowd-prediction.agent.ts(3,31): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/crowd-agent/crowd-prediction.agent.ts(28,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/crowd-agent/crowd-prediction.agent.ts(54,51): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/crowd-agent/crowd-prediction.agent.ts(96,40): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/crowd-agent/crowd-prediction.agent.ts(106,45): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/crowd-agent/crowd-prediction.agent.ts(113,36): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/crowd-agent/crowd-prediction.agent.ts(113,41): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/crowd-agent/crowd-prediction.agent.ts(117,24): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/crowd-agent/crowd-prediction.agent.ts(130,41): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/crowd-agent/crowd-prediction.agent.ts(143,42): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/crowd-agent/crowd-prediction.agent.ts(143,47): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/crowd-agent/crowd-prediction.agent.ts(144,42): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/crowd-agent/crowd-prediction.agent.ts(144,67): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/crowd-agent/crowd-prediction.agent.ts(144,72): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/crowd-agent/crowd-prediction.agent.ts(161,42): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/crowd-agent/crowd-prediction.agent.ts(172,40): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/crowd-agent/crowd-prediction.agent.ts(209,47): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/crowd-agent/crowd-prediction.agent.ts(222,50): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/crowd-agent/crowd-prediction.agent.ts(222,55): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/demand-agent/demand-forecast.agent.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/demand-agent/demand-forecast.agent.ts(3,31): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/demand-agent/demand-forecast.agent.ts(101,44): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/demand-agent/demand-forecast.agent.ts(110,52): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/demand-agent/demand-forecast.agent.ts(112,46): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/demand-agent/demand-forecast.agent.ts(112,51): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/demand-agent/demand-forecast.agent.ts(113,45): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/demand-agent/demand-forecast.agent.ts(113,50): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/demand-agent/demand-forecast.agent.ts(129,24): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/demand-agent/demand-forecast.agent.ts(136,36): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/demand-agent/demand-forecast.agent.ts(154,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/demand-agent/demand-forecast.agent.ts(221,23): error TS2339: Property 'forecastResult' does not exist on type 'PrismaService'.
+src/demand-agent/demand-forecast.agent.ts(249,24): error TS2339: Property 'forecastResult' does not exist on type 'PrismaService'.
+src/demo/demo.controller.ts(1,65): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/demo/demo.controller.ts(2,67): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/demo/demo.controller.ts(7,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/demo/demo.controller.ts(10,3): error TS2564: Property 'action' has no initializer and is not definitely assigned in the constructor.
+src/demo/demo.controller.ts(25,18): error TS1206: Decorators are not valid here.
+src/demo/demo.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/demo/demo.service.ts(1,57): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/demo/demo.service.ts(2,31): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/demo/demo.service.ts(4,97): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/demo/demo.service.ts(47,38): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(50,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(59,38): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/demo/demo.service.ts(62,39): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(69,39): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(82,23): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(93,38): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(103,25): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(110,23): error TS2339: Property '$executeRaw' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(110,145): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/demo/demo.service.ts(118,39): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(123,41): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(133,23): error TS2339: Property '$transaction' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(133,43): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+src/demo/demo.service.ts(158,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(161,23): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(166,40): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(177,37): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(183,38): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(199,23): error TS2339: Property 'qualityCheck' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(212,23): error TS2339: Property 'weighment' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(222,23): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(233,43): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(239,39): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(252,23): error TS2339: Property 'receipt' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(262,23): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(267,23): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(293,41): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(322,23): error TS2339: Property '$transaction' does not exist on type 'PrismaService'.
+src/demo/demo.service.ts(322,43): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+src/events/events.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/events/events.module.ts(2,28): error TS2307: Cannot find module '@nestjs/bullmq' or its corresponding type declarations.
+src/events/events.module.ts(3,45): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/events/events.processor.ts(1,54): error TS2307: Cannot find module '@nestjs/bullmq' or its corresponding type declarations.
+src/events/events.processor.ts(2,21): error TS2307: Cannot find module 'bullmq' or its corresponding type declarations.
+src/events/events.processor.ts(3,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/events/events.processor.ts(63,23): error TS2339: Property 'agentPrediction' does not exist on type 'PrismaService'.
+src/events/events.processor.ts(110,23): error TS2339: Property 'auditLog' does not exist on type 'PrismaService'.
+src/events/events.processor.ts(142,36): error TS2339: Property 'agentTask' does not exist on type 'PrismaService'.
+src/events/events.service.ts(1,50): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/events/events.service.ts(2,36): error TS2307: Cannot find module 'bullmq' or its corresponding type declarations.
+src/events/events.service.ts(3,29): error TS2307: Cannot find module '@nestjs/bullmq' or its corresponding type declarations.
+src/events/events.service.ts(30,5): error TS1206: Decorators are not valid here.
+src/events/events.service.ts(31,5): error TS1206: Decorators are not valid here.
+src/events/events.service.ts(32,5): error TS1206: Decorators are not valid here.
+src/events/events.service.ts(33,5): error TS1206: Decorators are not valid here.
+src/events/events.service.ts(34,5): error TS1206: Decorators are not valid here.
+src/events/events.service.ts(44,41): error TS7031: Binding element 'jobId' implicitly has an 'any' type.
+src/events/events.service.ts(44,48): error TS7031: Binding element 'returnvalue' implicitly has an 'any' type.
+src/events/events.service.ts(48,38): error TS7031: Binding element 'jobId' implicitly has an 'any' type.
+src/events/events.service.ts(48,45): error TS7031: Binding element 'failedReason' implicitly has an 'any' type.
+src/farmers/farmers.controller.ts(13,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/farmers/farmers.controller.ts(14,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/farmers/farmers.controller.ts(19,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/farmers/farmers.controller.ts(22,3): error TS2564: Property 'cropId' has no initializer and is not definitely assigned in the constructor.
+src/farmers/farmers.controller.ts(23,3): error TS2564: Property 'quantity' has no initializer and is not definitely assigned in the constructor.
+src/farmers/farmers.controller.ts(61,22): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(68,25): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(68,46): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(79,22): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(90,22): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(90,43): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(102,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(103,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(104,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(116,25): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(116,46): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(131,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(132,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(133,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(134,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(149,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(150,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(151,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(152,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(166,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(167,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(168,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(183,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(184,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(185,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(186,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(201,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(202,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(203,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(204,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(224,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(225,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(226,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(227,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(228,5): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(239,18): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(248,16): error TS1206: Decorators are not valid here.
+src/farmers/farmers.controller.ts(248,56): error TS1206: Decorators are not valid here.
+src/farmers/farmers.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/farmers/farmers.service.ts(1,66): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/farmers/farmers.service.ts(3,47): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/farmers/farmers.service.ts(33,24): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(45,24): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(54,24): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(84,19): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(94,19): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(101,38): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(107,42): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(115,24): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(126,38): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(131,36): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(136,47): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(141,26): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(153,24): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(167,39): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(174,24): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(182,39): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(189,23): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(193,24): error TS2339: Property 'farmerProduce' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(212,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(219,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(237,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(244,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(258,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(265,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(283,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(290,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(308,19): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/farmers/farmers.service.ts(315,19): error TS2339: Property 'complaint' does not exist on type 'PrismaService'.
+src/health/health.controller.ts(1,33): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/health/health.controller.ts(2,52): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/health/health.controller.ts(3,72): error TS2307: Cannot find module '@nestjs/terminus' or its corresponding type declarations.
+src/health/health.controller.ts(31,25): error TS2339: Property '$queryRaw' does not exist on type 'PrismaService'.
+src/health/health.controller.ts(47,25): error TS2339: Property '$queryRaw' does not exist on type 'PrismaService'.
+src/health/health.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/health/health.module.ts(3,32): error TS2307: Cannot find module '@nestjs/terminus' or its corresponding type declarations.
+src/main.ts(1,29): error TS2307: Cannot find module '@nestjs/core' or its corresponding type declarations.
+src/main.ts(2,48): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/main.ts(3,31): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/main.ts(4,48): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/main.ts(5,20): error TS2307: Cannot find module 'helmet' or its corresponding type declarations.
+src/main.ts(6,30): error TS2307: Cannot find module 'compression' or its corresponding type declarations.
+src/notification-agent/notification.agent.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/notification-agent/notification.agent.ts(3,55): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/notification-agent/notification.agent.ts(30,38): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/notifications/notifications.controller.ts(13,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/notifications/notifications.controller.ts(14,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/notifications/notifications.controller.ts(19,61): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/notifications/notifications.controller.ts(22,3): error TS2564: Property 'userId' has no initializer and is not definitely assigned in the constructor.
+src/notifications/notifications.controller.ts(25,3): error TS2564: Property 'title' has no initializer and is not definitely assigned in the constructor.
+src/notifications/notifications.controller.ts(26,3): error TS2564: Property 'message' has no initializer and is not definitely assigned in the constructor.
+src/notifications/notifications.controller.ts(31,3): error TS2564: Property 'userIds' has no initializer and is not definitely assigned in the constructor.
+src/notifications/notifications.controller.ts(34,3): error TS2564: Property 'title' has no initializer and is not definitely assigned in the constructor.
+src/notifications/notifications.controller.ts(35,3): error TS2564: Property 'message' has no initializer and is not definitely assigned in the constructor.
+src/notifications/notifications.controller.ts(53,5): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(54,5): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(55,5): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(56,5): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(64,24): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(72,20): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(72,60): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(79,23): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(87,16): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(87,56): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(97,16): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(106,18): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(115,20): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(131,5): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(132,5): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(133,5): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(134,5): error TS1206: Decorators are not valid here.
+src/notifications/notifications.controller.ts(135,5): error TS1206: Decorators are not valid here.
+src/notifications/notifications.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/notifications/notifications.service.ts(1,55): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/notifications/notifications.service.ts(3,69): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/notifications/notifications.service.ts(21,44): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(36,24): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(55,19): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(61,19): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(73,44): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(82,24): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(89,38): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(97,44): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(106,23): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(110,24): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(114,45): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(125,24): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(133,37): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/notifications/notifications.service.ts(138,48): error TS7006: Parameter 'u' implicitly has an 'any' type.
+src/officers/officers.controller.ts(11,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/officers/officers.controller.ts(12,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/officers/officers.controller.ts(17,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/officers/officers.controller.ts(35,22): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(44,25): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(44,46): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(55,20): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(66,21): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(84,5): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(85,5): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(86,5): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(87,5): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(98,18): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(107,16): error TS1206: Decorators are not valid here.
+src/officers/officers.controller.ts(107,56): error TS1206: Decorators are not valid here.
+src/officers/officers.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/officers/officers.service.ts(1,66): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/officers/officers.service.ts(3,31): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/officers/officers.service.ts(16,24): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(26,24): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(35,24): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(62,19): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(72,19): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(79,39): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(85,40): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(91,24): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(102,39): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(124,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(130,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(136,19): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(142,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(148,19): error TS2339: Property 'qualityCheck' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(167,39): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/officers/officers.service.ts(171,24): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/operations-agent/procurement-operations.agent.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/operations-agent/procurement-operations.agent.ts(3,44): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/operations-agent/procurement-operations.agent.ts(43,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/operations-agent/procurement-operations.agent.ts(52,51): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/operations-agent/procurement-operations.agent.ts(53,44): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/operations-agent/procurement-operations.agent.ts(158,40): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/operations-agent/procurement-operations.agent.ts(185,42): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/operations-agent/procurement-operations.agent.ts(196,40): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/operations-agent/procurement-operations.agent.ts(215,47): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/operations-agent/procurement-operations.agent.ts(228,50): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/operations-agent/procurement-operations.agent.ts(228,55): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/operations-agent/procurement-operations.agent.ts(244,39): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/operations-agent/procurement-operations.agent.ts(252,45): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/operations-agent/procurement-operations.agent.ts(264,40): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/operations-agent/procurement-operations.agent.ts(273,25): error TS7006: Parameter 'counter' implicitly has an 'any' type.
+src/operations-agent/procurement-operations.agent.ts(285,38): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/orchestrator/orchestrator.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/payments/payments.controller.ts(11,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/payments/payments.controller.ts(12,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/payments/payments.controller.ts(17,55): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/payments/payments.controller.ts(20,3): error TS2564: Property 'procurementId' has no initializer and is not definitely assigned in the constructor.
+src/payments/payments.controller.ts(21,3): error TS2564: Property 'amount' has no initializer and is not definitely assigned in the constructor.
+src/payments/payments.controller.ts(26,3): error TS2564: Property 'providerRef' has no initializer and is not definitely assigned in the constructor.
+src/payments/payments.controller.ts(42,23): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(53,5): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(54,5): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(55,5): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(56,5): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(58,57): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/payments/payments.controller.ts(69,18): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(69,58): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(74,57): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/payments/payments.controller.ts(84,26): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(91,29): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(100,23): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(100,63): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(109,21): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(118,21): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(118,61): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(125,20): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(132,28): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(147,5): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(148,5): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(149,5): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(150,5): error TS1206: Decorators are not valid here.
+src/payments/payments.controller.ts(151,5): error TS1206: Decorators are not valid here.
+src/payments/payments.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/payments/payments.service.ts(1,76): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/payments/payments.service.ts(3,71): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/payments/payments.service.ts(24,43): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(37,47): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(47,39): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(65,37): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(72,24): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(83,24): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(105,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(112,19): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(123,39): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(132,39): error TS2339: Property '$transaction' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(132,59): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+src/payments/payments.service.ts(201,37): error TS2339: Property 'receipt' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(213,24): error TS2339: Property 'receipt' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(220,24): error TS2339: Property 'receipt' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(231,39): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/payments/payments.service.ts(235,24): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/procurement/procurement.controller.ts(12,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/procurement/procurement.controller.ts(13,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/procurement/procurement.controller.ts(18,73): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/procurement/procurement.controller.ts(21,3): error TS2564: Property 'tokenId' has no initializer and is not definitely assigned in the constructor.
+src/procurement/procurement.controller.ts(22,3): error TS2564: Property 'quantity' has no initializer and is not definitely assigned in the constructor.
+src/procurement/procurement.controller.ts(35,3): error TS2564: Property 'grossWeight' has no initializer and is not definitely assigned in the constructor.
+src/procurement/procurement.controller.ts(36,3): error TS2564: Property 'tareWeight' has no initializer and is not definitely assigned in the constructor.
+src/procurement/procurement.controller.ts(40,3): error TS2564: Property 'unitPrice' has no initializer and is not definitely assigned in the constructor.
+src/procurement/procurement.controller.ts(55,26): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(55,47): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(56,61): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/procurement/procurement.controller.ts(69,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(70,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(71,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(73,60): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/procurement/procurement.controller.ts(84,18): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(84,58): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(89,60): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/procurement/procurement.controller.ts(99,28): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(109,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(110,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(111,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(113,61): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/procurement/procurement.controller.ts(123,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(124,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(125,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(127,61): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/procurement/procurement.controller.ts(140,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(141,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(142,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(144,61): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/procurement/procurement.controller.ts(157,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(158,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(159,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(161,61): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/procurement/procurement.controller.ts(182,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(183,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(184,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(185,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(186,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(187,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(188,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.controller.ts(189,5): error TS1206: Decorators are not valid here.
+src/procurement/procurement.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/procurement/procurement.service.ts(1,76): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/procurement/procurement.service.ts(3,86): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/procurement/procurement.service.ts(36,37): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(49,39): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(58,46): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(68,38): error TS2339: Property '$transaction' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(68,58): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+src/procurement/procurement.service.ts(101,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(105,37): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(112,24): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(129,24): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(160,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(167,19): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(174,38): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(205,24): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(213,38): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(222,39): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(227,44): error TS2339: Property 'qualityCheck' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(258,38): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(267,39): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(277,23): error TS2339: Property 'weighment' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(298,38): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(307,39): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(312,41): error TS2339: Property 'weighment' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(316,39): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/procurement/procurement.service.ts(327,23): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/queue-agent/queue-prediction.agent.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/queue-agent/queue-prediction.agent.ts(4,29): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/queue-agent/queue-prediction.agent.ts(34,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/queue-agent/queue-prediction.agent.ts(43,51): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/queue-agent/queue-prediction.agent.ts(44,43): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/queue-agent/queue-prediction.agent.ts(97,47): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/queue-agent/queue-prediction.agent.ts(110,50): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/queue-agent/queue-prediction.agent.ts(110,55): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/queue-agent/queue-prediction.agent.ts(124,44): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/queue-agent/queue-prediction.agent.ts(138,24): error TS2339: Property 'agentPrediction' does not exist on type 'PrismaService'.
+src/queue/queue.controller.ts(9,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/queue/queue.controller.ts(10,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/queue/queue.controller.ts(15,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/queue/queue.controller.ts(25,24): error TS1206: Decorators are not valid here.
+src/queue/queue.controller.ts(34,24): error TS1206: Decorators are not valid here.
+src/queue/queue.controller.ts(34,76): error TS1206: Decorators are not valid here.
+src/queue/queue.controller.ts(35,54): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/queue/queue.controller.ts(51,5): error TS1206: Decorators are not valid here.
+src/queue/queue.controller.ts(52,5): error TS1206: Decorators are not valid here.
+src/queue/queue.controller.ts(53,5): error TS1206: Decorators are not valid here.
+src/queue/queue.controller.ts(64,24): error TS1206: Decorators are not valid here.
+src/queue/queue.gateway.ts(9,8): error TS2307: Cannot find module '@nestjs/websockets' or its corresponding type declarations.
+src/queue/queue.gateway.ts(10,32): error TS2307: Cannot find module 'socket.io' or its corresponding type declarations.
+src/queue/queue.gateway.ts(11,28): error TS2307: Cannot find module '@nestjs/jwt' or its corresponding type declarations.
+src/queue/queue.gateway.ts(12,31): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/queue/queue.gateway.ts(14,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/queue/queue.gateway.ts(53,66): error TS18046: 'error' is of type 'unknown'.
+src/queue/queue.gateway.ts(65,5): error TS1206: Decorators are not valid here.
+src/queue/queue.gateway.ts(66,5): error TS1206: Decorators are not valid here.
+src/queue/queue.gateway.ts(73,54): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/queue/queue.gateway.ts(93,5): error TS1206: Decorators are not valid here.
+src/queue/queue.gateway.ts(94,5): error TS1206: Decorators are not valid here.
+src/queue/queue.gateway.ts(106,5): error TS1206: Decorators are not valid here.
+src/queue/queue.gateway.ts(107,5): error TS1206: Decorators are not valid here.
+src/queue/queue.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/queue/queue.module.ts(2,27): error TS2307: Cannot find module '@nestjs/jwt' or its corresponding type declarations.
+src/queue/queue.module.ts(14,43): error TS2304: Cannot find name 'JwtService'.
+src/queue/queue.module.ts(15,41): error TS2304: Cannot find name 'JwtService'.
+src/queue/queue.service.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/queue/queue.service.ts(4,29): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/queue/queue.service.ts(19,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/queue/queue.service.ts(28,51): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/queue/queue.service.ts(29,45): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/queue/queue.service.ts(34,44): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/queue/queue.service.ts(44,37): error TS7006: Parameter 'entry' implicitly has an 'any' type.
+src/queue/queue.service.ts(44,44): error TS7006: Parameter 'index' implicitly has an 'any' type.
+src/queue/queue.service.ts(55,40): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/queue/queue.service.ts(68,37): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/queue/queue.service.ts(96,39): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/queue/queue.service.ts(104,37): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/queue/queue.service.ts(108,29): error TS7006: Parameter 'entry' implicitly has an 'any' type.
+src/queue/queue.service.ts(108,36): error TS7006: Parameter 'index' implicitly has an 'any' type.
+src/queue/queue.service.ts(125,47): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/queue/queue.service.ts(141,50): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/queue/queue.service.ts(141,55): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/queue/queue.service.ts(166,19): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/queue/queue.service.ts(167,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/queue/queue.service.ts(168,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/queue/queue.service.ts(169,19): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/routes.ts(14,21): error TS2307: Cannot find module './pages/farmer/Payment' or its corresponding type declarations.
+src/schedules/schedules.controller.ts(12,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/schedules/schedules.controller.ts(13,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/schedules/schedules.controller.ts(18,22): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/schedules/schedules.controller.ts(21,3): error TS2564: Property 'centerId' has no initializer and is not definitely assigned in the constructor.
+src/schedules/schedules.controller.ts(22,3): error TS2564: Property 'cropId' has no initializer and is not definitely assigned in the constructor.
+src/schedules/schedules.controller.ts(23,3): error TS2564: Property 'date' has no initializer and is not definitely assigned in the constructor.
+src/schedules/schedules.controller.ts(24,3): error TS2564: Property 'startTime' has no initializer and is not definitely assigned in the constructor.
+src/schedules/schedules.controller.ts(25,3): error TS2564: Property 'endTime' has no initializer and is not definitely assigned in the constructor.
+src/schedules/schedules.controller.ts(31,3): error TS2564: Property 'startTime' has no initializer and is not definitely assigned in the constructor.
+src/schedules/schedules.controller.ts(32,3): error TS2564: Property 'endTime' has no initializer and is not definitely assigned in the constructor.
+src/schedules/schedules.controller.ts(61,16): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(76,5): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(77,5): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(78,5): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(79,5): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(80,5): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(81,5): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(82,5): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(99,18): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(106,25): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(113,27): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(123,16): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(123,56): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(133,16): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(144,17): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(144,57): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(155,5): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(156,5): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(157,5): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(168,20): error TS1206: Decorators are not valid here.
+src/schedules/schedules.controller.ts(168,60): error TS1206: Decorators are not valid here.
+src/schedules/schedules.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/schedules/schedules.service.ts(1,87): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/schedules/schedules.service.ts(3,40): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/schedules/schedules.service.ts(40,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(45,36): error TS2339: Property 'crop' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(53,40): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(62,24): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(114,24): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(143,19): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(150,19): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(157,40): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(162,24): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(170,40): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(175,23): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(182,40): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(187,24): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(199,36): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(204,24): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(211,36): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(216,40): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(221,23): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(225,40): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(230,24): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(234,40): error TS2339: Property 'slot' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(241,40): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/schedules/schedules.service.ts(261,33): error TS7006: Parameter 'slot' implicitly has an 'any' type.
+src/slot-agent/slot-recommendation.agent.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/slot-agent/slot-recommendation.agent.ts(5,37): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/slot-agent/slot-recommendation.agent.ts(41,38): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/slot-agent/slot-recommendation.agent.ts(50,40): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/slot-agent/slot-recommendation.agent.ts(157,40): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/slot-agent/slot-recommendation.agent.ts(168,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/support-agent/kisan-sahayak.agent.ts(1,36): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/support-agent/kisan-sahayak.agent.ts(3,94): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/support-agent/kisan-sahayak.agent.ts(89,38): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/support-agent/kisan-sahayak.agent.ts(145,34): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(153,40): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/support-agent/kisan-sahayak.agent.ts(192,38): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(200,39): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/support-agent/kisan-sahayak.agent.ts(214,36): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(214,123): error TS7006: Parameter 'cr' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(218,36): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(218,171): error TS7006: Parameter 'cr' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(226,38): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/support-agent/kisan-sahayak.agent.ts(258,44): error TS2339: Property 'procurementRecord' does not exist on type 'PrismaService'.
+src/support-agent/kisan-sahayak.agent.ts(314,46): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(322,40): error TS2339: Property 'payment' does not exist on type 'PrismaService'.
+src/support-agent/kisan-sahayak.agent.ts(363,38): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(380,41): error TS2339: Property 'schedule' does not exist on type 'PrismaService'.
+src/support-agent/kisan-sahayak.agent.ts(395,40): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(395,157): error TS7006: Parameter 'sl' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(399,40): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/support-agent/kisan-sahayak.agent.ts(399,172): error TS7006: Parameter 'sl' implicitly has an 'any' type.
+src/tokens/tokens.controller.ts(12,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/tokens/tokens.controller.ts(13,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/tokens/tokens.controller.ts(18,35): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/tokens/tokens.controller.ts(30,29): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(30,83): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(31,56): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/tokens/tokens.controller.ts(35,55): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/tokens/tokens.controller.ts(49,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(50,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(51,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(52,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(54,55): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/tokens/tokens.controller.ts(65,18): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(65,58): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(70,55): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/tokens/tokens.controller.ts(80,24): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(80,64): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(85,55): error TS2339: Property 'farmer' does not exist on type 'PrismaService'.
+src/tokens/tokens.controller.ts(95,27): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(105,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(106,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(117,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(118,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(120,56): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/tokens/tokens.controller.ts(133,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(134,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(136,56): error TS2339: Property 'officer' does not exist on type 'PrismaService'.
+src/tokens/tokens.controller.ts(155,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(156,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(157,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(158,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(159,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.controller.ts(160,5): error TS1206: Decorators are not valid here.
+src/tokens/tokens.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/tokens/tokens.service.ts(1,76): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/tokens/tokens.service.ts(4,69): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/tokens/tokens.service.ts(13,39): error TS2339: Property 'booking' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(32,37): error TS2339: Property '$transaction' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(32,57): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+src/tokens/tokens.service.ts(62,38): error TS2339: Property 'procurementCenter' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(66,37): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(95,24): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(109,24): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(133,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(140,19): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(179,37): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(191,39): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(199,47): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(214,50): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/tokens/tokens.service.ts(214,55): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/tokens/tokens.service.ts(225,37): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(248,44): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(269,37): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(272,23): error TS2339: Property '$transaction' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(272,43): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+src/tokens/tokens.service.ts(295,39): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(304,41): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(316,23): error TS2339: Property '$transaction' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(316,43): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+src/tokens/tokens.service.ts(337,39): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(342,23): error TS2339: Property 'centerCounter' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(347,24): error TS2339: Property 'token' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(351,37): error TS2339: Property 'queueEntry' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(369,23): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/tokens/tokens.service.ts(382,23): error TS2339: Property 'notification' does not exist on type 'PrismaService'.
+src/users/users.controller.ts(12,8): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/users/users.controller.ts(13,77): error TS2307: Cannot find module '@nestjs/swagger' or its corresponding type declarations.
+src/users/users.controller.ts(18,34): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/users/users.controller.ts(28,3): error TS2564: Property 'currentPassword' has no initializer and is not definitely assigned in the constructor.
+src/users/users.controller.ts(29,3): error TS2564: Property 'newPassword' has no initializer and is not definitely assigned in the constructor.
+src/users/users.controller.ts(42,20): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(49,23): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(49,44): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(56,24): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(56,45): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(72,5): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(73,5): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(74,5): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(75,5): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(76,5): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(96,18): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(105,16): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(105,56): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(114,22): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(114,62): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(123,20): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(123,60): error TS1206: Decorators are not valid here.
+src/users/users.controller.ts(132,16): error TS1206: Decorators are not valid here.
+src/users/users.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/users/users.service.ts(1,66): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/users/users.service.ts(3,40): error TS2307: Cannot find module '@prisma/client' or its corresponding type declarations.
+src/users/users.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+src/users/users.service.ts(18,24): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(29,24): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(35,24): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(63,19): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(74,19): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(81,36): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(87,47): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(95,24): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(107,36): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(112,24): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(119,36): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(124,24): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(131,36): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(142,23): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(149,36): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(154,23): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(162,19): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(163,19): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(164,19): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(165,19): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/users/users.service.ts(166,19): error TS2339: Property 'user' does not exist on type 'PrismaService'.
+src/worker.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+src/worker.module.ts(2,30): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+src/worker.module.ts(3,28): error TS2307: Cannot find module '@nestjs/bullmq' or its corresponding type declarations.
+src/worker.ts(2,29): error TS2307: Cannot find module '@nestjs/core' or its corresponding type declarations.

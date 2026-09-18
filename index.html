@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- Primary App Meta -->
+    <title>KisanProcure - Smart Procurement Portal & App</title>
+    <meta name="description" content="Smart agricultural procurement, digital slot booking, and live queue tracking for Indian farmers." />
+    
+    <!-- Android & Web App Meta -->
+    <meta name="theme-color" content="#1e5c33" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="KisanProcure" />
+    
+    <!-- iOS Meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="KisanProcure" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.svg" />
+
+    <!-- Icons & Manifest -->
+    <link rel="icon" type="image/svg+xml" href="/icons/icon-192.svg" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Leaflet CSS for Uttar Pradesh Center Maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  </head>
+  <body class="bg-[#f4f6f2] antialiased select-none selection:bg-[#c8e6d0]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- PWA Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((reg) => console.log('✅ PWA ServiceWorker registered with scope:', reg.scope))
+            .catch((err) => console.log('ServiceWorker registration skipped:', err));
+        });
+      }
+    </script>
+  </body>
+</html>

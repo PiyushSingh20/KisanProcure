@@ -1,0 +1,58 @@
+{
+  "name": "KisanProcure - Smart Agricultural Procurement",
+  "short_name": "KisanProcure",
+  "description": "Smart agricultural procurement, digital slot booking, and live queue tracking for Indian farmers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f6f2",
+  "theme_color": "#1e5c33",
+  "categories": ["agriculture", "productivity", "utilities", "business"],
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My Active Token",
+      "short_name": "Queue",
+      "description": "Check your live position in the mandi queue",
+      "url": "/farmer/queue",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Book Slot",
+      "short_name": "Book",
+      "description": "Schedule your produce delivery slot",
+      "url": "/farmer/book",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Procurement Centers",
+      "short_name": "Centers",
+      "description": "Find nearby procurement mandis",
+      "url": "/farmer/centers",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}

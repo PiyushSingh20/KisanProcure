@@ -1,0 +1,8 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#1e5c33"/>
+  <circle cx="256" cy="256" r="170" fill="white" fill-opacity="0.12"/>
+  <!-- Leaf outline -->
+  <path d="M256 100C256 100 128 192 128 326C128 396.69 185.31 454 256 454C326.69 454 384 396.69 384 326C384 192 256 100 256 100Z" fill="white" fill-opacity="0.95"/>
+  <!-- Wheat / Stem detail -->
+  <path d="M256 170V380M192 234C213 223 235 223 256 256M320 234C299 223 277 223 256 256M192 298C213 287 235 287 256 320M320 298C299 287 277 287 256 320" stroke="#1e5c33" stroke-width="16" stroke-linecap="round"/>
+</svg>

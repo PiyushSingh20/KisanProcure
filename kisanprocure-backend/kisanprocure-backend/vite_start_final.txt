@@ -1,0 +1,9 @@
+[33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vite.config.js:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.[39m
+
+  [32m[1mVITE[22m v8.3.0[39m  [2mready in [0m[1m520[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m8443[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://10.113.11.159:[1m8443[22m/[39m  [2mWi-Fi[22m
+[2m8:51:40 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [optimizer] bundling dependencies...

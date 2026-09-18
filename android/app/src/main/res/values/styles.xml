@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme - used as fallback -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Main app theme — no action bar, used by MainActivity after splash -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- Splash screen theme — shown at app launch before WebView loads -->
+    <style name="AppTheme.NoActionBarLaunch" parent="Theme.SplashScreen">
+        <!-- Solid brand green background during splash -->
+        <item name="android:windowBackground">@color/colorSplashBackground</item>
+        <item name="android:statusBarColor">@color/colorSplashBackground</item>
+        <item name="android:navigationBarColor">@color/colorSplashBackground</item>
+        <item name="windowSplashScreenBackground">@color/colorSplashBackground</item>
+    </style>
+
+</resources>

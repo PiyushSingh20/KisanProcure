@@ -1,0 +1,789 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  FARMER
+  OFFICER
+  ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+  SUSPENDED
+  PENDING_VERIFICATION
+}
+
+enum BookingStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+  EXPIRED
+  COMPLETED
+}
+
+enum TokenStatus {
+  GENERATED
+  WAITING
+  CALLED
+  ARRIVED
+  QUALITY_CHECK
+  WEIGHMENT
+  PROCUREMENT_COMPLETED
+  PAYMENT_PENDING
+  PAYMENT_COMPLETED
+  CANCELLED
+  NO_SHOW
+}
+
+enum ProcurementState {
+  BOOKED
+  SCHEDULED
+  WAITING
+  CALLED
+  ARRIVED
+  QUALITY_CHECK
+  WEIGHMENT
+  PROCUREMENT_COMPLETED
+  PAYMENT_PENDING
+  PAYMENT_COMPLETED
+  CANCELLED
+}
+
+enum QualityCheckStatus {
+  PENDING
+  PASSED
+  FAILED
+  PARTIAL
+}
+
+enum PaymentStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+  REFUNDED
+  CANCELLED
+}
+
+enum NotificationType {
+  SLOT_BOOKED
+  APPOINTMENT_APPROACHING
+  QUEUE_APPROACHING
+  TOKEN_CALLED
+  SCHEDULE_CHANGED
+  CENTER_OVERLOADED
+  CENTER_CLOSED
+  PROCUREMENT_COMPLETED
+  PAYMENT_COMPLETED
+  COMPLAINT_RECEIVED
+  COMPLAINT_RESOLVED
+  ANNOUNCEMENT
+}
+
+enum NotificationChannel {
+  IN_APP
+  PUSH
+  SMS
+  WHATSAPP
+  EMAIL
+}
+
+enum ComplaintStatus {
+  OPEN
+  IN_PROGRESS
+  RESOLVED
+  CLOSED
+  REJECTED
+}
+
+enum CenterStatus {
+  ACTIVE
+  INACTIVE
+  MAINTENANCE
+  FULL
+}
+
+enum AgentType {
+  QUEUE_PREDICTION
+  SLOT_RECOMMENDATION
+  CENTER_RECOMMENDATION
+  CROWD_PREDICTION
+  NOTIFICATION
+  FARMER_SUPPORT
+  PROCUREMENT_OPERATIONS
+  DEMAND_FORECAST
+}
+
+model User {
+  id            String       @id @default(uuid())
+  mobileNumber  String       @unique
+  email         String?      @unique
+  passwordHash  String?
+  role          Role         @default(FARMER)
+  status        UserStatus   @default(PENDING_VERIFICATION)
+  firstName     String?
+  lastName      String?
+  avatar        String?
+  lastLoginAt   DateTime?
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+  deletedAt     DateTime?
+
+  farmer        Farmer?
+  officer       Officer?
+  admin         Admin?
+  sessions      Session[]
+  auditLogs     AuditLog[]   @relation("UserAuditLogs")
+
+  @@index([mobileNumber])
+  @@index([email])
+  @@index([role])
+  @@index([status])
+}
+
+model Session {
+  id           String   @id @default(uuid())
+  userId       String
+  refreshToken String   @unique
+  userAgent    String?
+  ipAddress    String?
+  expiresAt    DateTime
+  createdAt    DateTime @default(now())
+  revokedAt    DateTime?
+
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([refreshToken])
+  @@index([expiresAt])
+}
+
+model Farmer {
+  id              String   @id @default(uuid())
+  userId          String   @unique
+  farmerCode      String   @unique
+  aadhaarNumber   String?  @unique
+  panNumber       String?
+  bankAccount     String?
+  ifscCode        String?
+  address         String?
+  village         String?
+  district        String?
+  state           String?
+  pincode         String?
+  latitude        Float?
+  longitude       Float?
+  totalLandArea   Float?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  deletedAt       DateTime?
+
+  user            User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  produce         FarmerProduce[]
+  bookings        Booking[]
+  tokens          Token[]
+  procurementRecords ProcurementRecord[]
+  payments        Payment[]
+  complaints      Complaint[]
+  notifications   Notification[]
+  receipts        Receipt[]
+
+  @@index([userId])
+  @@index([farmerCode])
+  @@index([district])
+  @@index([state])
+}
+
+model Officer {
+  id              String   @id @default(uuid())
+  userId          String   @unique
+  employeeId      String   @unique
+  centerId        String?
+  designation     String?
+  permissions     String[]
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  deletedAt       DateTime?
+
+  user            User                  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  center          ProcurementCenter?    @relation("CenterOfficers", fields: [centerId], references: [id])
+  auditLogs       AuditLog[]            @relation("OfficerAuditLogs")
+  qualityChecks   QualityCheck[]        @relation("OfficerQualityChecks")
+  weighments      Weighment[]           @relation("OfficerWeighments")
+  processedRecords ProcurementRecord[]  @relation("OfficerProcessedRecords")
+  assignedComplaints Complaint[]        @relation("OfficerAssignedComplaints")
+
+  @@index([userId])
+  @@index([employeeId])
+  @@index([centerId])
+}
+
+model Admin {
+  id          String   @id @default(uuid())
+  userId      String   @unique
+  permissions String[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  deletedAt   DateTime?
+
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  auditLogs   AuditLog[]    @relation("AdminAuditLogs")
+
+  @@index([userId])
+}
+
+model ProcurementCenter {
+  id              String       @id @default(uuid())
+  code            String       @unique
+  name            String
+  address         String
+  village         String?
+  district        String
+  state           String
+  pincode         String
+  latitude        Float?
+  longitude       Float?
+  contactNumber   String?
+  email           String?
+  status          CenterStatus @default(ACTIVE)
+  capacityPerDay  Int          @default(100)
+  operatingHours  Json?
+  facilities      String[]
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+  deletedAt       DateTime?
+
+  counters        CenterCounter[]
+  schedules       Schedule[]
+  officers        Officer[]    @relation("CenterOfficers")
+  bookings        Booking[]
+  tokens          Token[]
+  queueEntries    QueueEntry[]
+  procurementRecords ProcurementRecord[]
+  analytics       CenterAnalytics[]
+  centerCrops     Crop[]       @relation("CenterCrops")
+  complaints      Complaint[]
+
+  @@index([code])
+  @@index([district])
+  @@index([state])
+  @@index([status])
+}
+
+model CenterCounter {
+  id              String   @id @default(uuid())
+  centerId        String
+  counterNumber   Int
+  isActive        Boolean  @default(true)
+  currentTokenId  String?  @unique
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  center          ProcurementCenter @relation(fields: [centerId], references: [id], onDelete: Cascade)
+  currentToken    Token?            @relation("CounterCurrentToken", fields: [currentTokenId], references: [id], onDelete: SetNull)
+
+  @@unique([centerId, counterNumber])
+  @@index([centerId])
+}
+
+model Crop {
+  id              String   @id @default(uuid())
+  code            String   @unique
+  name            String
+  scientificName  String?
+  category        String?
+  unit            String   @default("QUINTAL")
+  minPrice        Float?
+  maxPrice        Float?
+  seasonStart     Int?
+  seasonEnd       Int?
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  farmerProduce   FarmerProduce[]
+  centerCrops     ProcurementCenter[] @relation("CenterCrops")
+  schedules       Schedule[]
+  slots           Slot[]
+  bookings        Booking[]      @relation("CropBookings")
+  tokens          Token[]        @relation("CropTokens")
+  procurements    ProcurementRecord[] @relation("CropProcurements")
+  complaints      Complaint[]
+
+  @@index([code])
+  @@index([category])
+  @@index([isActive])
+}
+
+model FarmerProduce {
+  id              String   @id @default(uuid())
+  farmerId        String
+  cropId          String
+  quantity        Float
+  expectedPrice   Float?
+  harvestDate     DateTime?
+  qualityGrade    String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  farmer          Farmer @relation(fields: [farmerId], references: [id], onDelete: Cascade)
+  crop            Crop   @relation(fields: [cropId], references: [id], onDelete: Cascade)
+
+  @@index([farmerId])
+  @@index([cropId])
+}
+
+model Schedule {
+  id              String   @id @default(uuid())
+  centerId        String
+  cropId          String
+  date            DateTime
+  startTime       String
+  endTime         String
+  maxTokens       Int      @default(50)
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  center          ProcurementCenter @relation(fields: [centerId], references: [id], onDelete: Cascade)
+  crop            Crop              @relation(fields: [cropId], references: [id], onDelete: Cascade)
+  slots           Slot[]
+
+  @@unique([centerId, cropId, date])
+  @@index([centerId])
+  @@index([cropId])
+  @@index([date])
+  @@index([isActive])
+}
+
+model Slot {
+  id              String   @id @default(uuid())
+  scheduleId      String
+  cropId          String
+  startTime       String
+  endTime         String
+  capacity        Int      @default(10)
+  bookedCount     Int      @default(0)
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  schedule        Schedule @relation(fields: [scheduleId], references: [id], onDelete: Cascade)
+  crop            Crop     @relation(fields: [cropId], references: [id], onDelete: Cascade)
+  bookings        Booking[]
+
+  @@index([scheduleId])
+  @@index([cropId])
+  @@index([isActive])
+}
+
+model Booking {
+  id              String       @id @default(uuid())
+  bookingNumber   String       @unique
+  farmerId        String
+  centerId        String
+  cropId          String
+  slotId          String
+  scheduledDate   DateTime
+  status          BookingStatus @default(PENDING)
+  quantity        Float
+  expectedPrice   Float?
+  notes           String?
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+  deletedAt       DateTime?
+
+  farmer          Farmer       @relation(fields: [farmerId], references: [id], onDelete: Cascade)
+  center          ProcurementCenter @relation(fields: [centerId], references: [id], onDelete: Cascade)
+  crop            Crop         @relation("CropBookings", fields: [cropId], references: [id], onDelete: Cascade)
+  slot            Slot         @relation(fields: [slotId], references: [id], onDelete: Cascade)
+  token           Token?
+
+  @@index([farmerId])
+  @@index([centerId])
+  @@index([cropId])
+  @@index([slotId])
+  @@index([scheduledDate])
+  @@index([status])
+  @@index([bookingNumber])
+}
+
+model Token {
+  id              String       @id @default(uuid())
+  tokenNumber     String       @unique
+  bookingId       String       @unique
+  farmerId        String
+  centerId        String
+  cropId          String
+  status          TokenStatus  @default(GENERATED)
+  queuePosition   Int?
+  estimatedWait   Int?
+  calledAt        DateTime?
+  arrivedAt       DateTime?
+  completedAt     DateTime?
+  cancelledAt     DateTime?
+  cancellationReason String?
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  booking         Booking      @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  farmer          Farmer       @relation(fields: [farmerId], references: [id], onDelete: Cascade)
+  center          ProcurementCenter @relation(fields: [centerId], references: [id], onDelete: Cascade)
+  crop            Crop         @relation("CropTokens", fields: [cropId], references: [id], onDelete: Cascade)
+  queueEntry      QueueEntry?
+  procurementRecord ProcurementRecord?
+  counter         CenterCounter? @relation("CounterCurrentToken")
+  complaints      Complaint[]
+
+  @@index([bookingId])
+  @@index([farmerId])
+  @@index([centerId])
+  @@index([cropId])
+  @@index([status])
+  @@index([tokenNumber])
+  @@index([queuePosition])
+}
+
+model QueueEntry {
+  id              String   @id @default(uuid())
+  tokenId         String   @unique
+  centerId        String
+  position        Int
+  joinedAt        DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  token           Token    @relation(fields: [tokenId], references: [id], onDelete: Cascade)
+  center          ProcurementCenter @relation(fields: [centerId], references: [id], onDelete: Cascade)
+
+  @@index([centerId])
+  @@index([position])
+}
+
+model ProcurementRecord {
+  id              String           @id @default(uuid())
+  recordNumber    String           @unique
+  tokenId         String           @unique
+  farmerId        String
+  centerId        String
+  cropId          String
+  state           ProcurementState @default(BOOKED)
+  quantity        Float
+  qualityGrade    String?
+  qualityStatus   QualityCheckStatus @default(PENDING)
+  qualityNotes    String?
+  weighedQuantity Float?
+  unitPrice       Float?
+  totalAmount     Float?
+  paymentStatus   PaymentStatus    @default(PENDING)
+  processedById   String?
+  startedAt       DateTime?
+  completedAt     DateTime?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  token           Token            @relation(fields: [tokenId], references: [id], onDelete: Cascade)
+  farmer          Farmer           @relation(fields: [farmerId], references: [id], onDelete: Cascade)
+  center          ProcurementCenter @relation(fields: [centerId], references: [id], onDelete: Cascade)
+  crop            Crop             @relation("CropProcurements", fields: [cropId], references: [id], onDelete: Cascade)
+  processedBy     Officer?         @relation("OfficerProcessedRecords", fields: [processedById], references: [id])
+  qualityCheck    QualityCheck?
+  weighment       Weighment?
+  payment         Payment?
+  receipt         Receipt?
+
+  @@index([tokenId])
+  @@index([farmerId])
+  @@index([centerId])
+  @@index([cropId])
+  @@index([state])
+  @@index([recordNumber])
+}
+
+model QualityCheck {
+  id              String               @id @default(uuid())
+  procurementId   String               @unique
+  moistureContent Float?
+  foreignMatter   Float?
+  damagedGrains   Float?
+  testWeight      Float?
+  status          QualityCheckStatus   @default(PENDING)
+  notes           String?
+  checkedById     String?
+  checkedAt       DateTime?
+  createdAt       DateTime             @default(now())
+  updatedAt       DateTime             @updatedAt
+
+  procurement     ProcurementRecord    @relation(fields: [procurementId], references: [id], onDelete: Cascade)
+  checkedBy       Officer?             @relation("OfficerQualityChecks", fields: [checkedById], references: [id])
+
+  @@index([procurementId])
+  @@index([status])
+}
+
+model Weighment {
+  id              String   @id @default(uuid())
+  procurementId   String   @unique
+  grossWeight     Float
+  tareWeight      Float
+  netWeight       Float
+  weighedById     String?
+  weighedAt       DateTime @default(now())
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  procurement     ProcurementRecord @relation(fields: [procurementId], references: [id], onDelete: Cascade)
+  weighedBy       Officer?          @relation("OfficerWeighments", fields: [weighedById], references: [id])
+
+  @@index([procurementId])
+}
+
+model Payment {
+  id              String       @id @default(uuid())
+  paymentNumber   String       @unique
+  procurementId   String       @unique
+  farmerId        String
+  amount          Float
+  status          PaymentStatus @default(PENDING)
+  provider        String?
+  providerRef     String?
+  paidAt          DateTime?
+  failedAt        DateTime?
+  failureReason   String?
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  procurement     ProcurementRecord @relation(fields: [procurementId], references: [id], onDelete: Cascade)
+  farmer          Farmer           @relation(fields: [farmerId], references: [id], onDelete: Cascade)
+  receipt         Receipt?
+
+  @@index([procurementId])
+  @@index([farmerId])
+  @@index([status])
+  @@index([paymentNumber])
+}
+
+model Receipt {
+  id              String   @id @default(uuid())
+  receiptNumber   String   @unique
+  paymentId       String   @unique
+  procurementId   String   @unique
+  farmerId        String
+  amount          Float
+  issuedAt        DateTime @default(now())
+  pdfUrl          String?
+  createdAt       DateTime @default(now())
+
+  payment         Payment  @relation(fields: [paymentId], references: [id], onDelete: Cascade)
+  procurement     ProcurementRecord @relation(fields: [procurementId], references: [id], onDelete: Cascade)
+  farmer          Farmer   @relation(fields: [farmerId], references: [id], onDelete: Cascade)
+
+  @@index([paymentId])
+  @@index([procurementId])
+  @@index([farmerId])
+  @@index([receiptNumber])
+}
+
+model Notification {
+  id              String            @id @default(uuid())
+  userId          String
+  type            NotificationType
+  channel         NotificationChannel @default(IN_APP)
+  title           String
+  message         String
+  data            Json?
+  isRead          Boolean           @default(false)
+  readAt          DateTime?
+  sentAt          DateTime?
+  failedAt        DateTime?
+  failureReason   String?
+  createdAt       DateTime          @default(now())
+
+  farmer          Farmer?           @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([type])
+  @@index([isRead])
+  @@index([createdAt])
+}
+
+model Announcement {
+  id              String   @id @default(uuid())
+  title           String
+  message         String
+  priority        Int      @default(1)
+  targetRoles     Role[]
+  targetCenters   String[]
+  targetCrops     String[]
+  startDate       DateTime
+  endDate         DateTime?
+  isActive        Boolean  @default(true)
+  createdById     String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@index([targetRoles])
+  @@index([targetCenters])
+  @@index([startDate, endDate])
+  @@index([isActive])
+}
+
+model Complaint {
+  id              String         @id @default(uuid())
+  complaintNumber String         @unique
+  farmerId        String
+  centerId        String?
+  cropId          String?
+  tokenId         String?
+  subject         String
+  description     String
+  status          ComplaintStatus @default(OPEN)
+  priority        Int            @default(1)
+  assignedToId    String?
+  resolvedAt      DateTime?
+  resolution      String?
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  farmer          Farmer         @relation(fields: [farmerId], references: [id], onDelete: Cascade)
+  center          ProcurementCenter? @relation(fields: [centerId], references: [id])
+  crop            Crop?          @relation(fields: [cropId], references: [id])
+  token           Token?         @relation(fields: [tokenId], references: [id])
+  assignedTo      Officer?       @relation("OfficerAssignedComplaints", fields: [assignedToId], references: [id])
+
+  @@index([farmerId])
+  @@index([centerId])
+  @@index([status])
+  @@index([complaintNumber])
+}
+
+model CenterAnalytics {
+  id              String   @id @default(uuid())
+  centerId        String
+  date            DateTime @db.Date
+  totalBookings   Int      @default(0)
+  totalFarmers    Int      @default(0)
+  totalTokens     Int      @default(0)
+  totalProcured   Float    @default(0)
+  avgWaitTime     Float?
+  avgProcessTime  Float?
+  noShowCount     Int      @default(0)
+  peakHour        Int?
+  utilization     Float?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  center          ProcurementCenter @relation(fields: [centerId], references: [id], onDelete: Cascade)
+
+  @@unique([centerId, date])
+  @@index([centerId])
+  @@index([date])
+}
+
+model AuditLog {
+  id          String   @id @default(uuid())
+  actorId     String
+  actorRole   Role
+  action      String
+  entity      String
+  entityId    String
+  before      Json?
+  after       Json?
+  ipAddress   String?
+  userAgent   String?
+  createdAt   DateTime @default(now())
+
+  user        User?    @relation("UserAuditLogs", fields: [actorId], references: [id], map: "AuditLog_user_fkey")
+  officer     Officer? @relation("OfficerAuditLogs", fields: [actorId], references: [id], map: "AuditLog_officer_fkey")
+  admin       Admin?   @relation("AdminAuditLogs", fields: [actorId], references: [id], map: "AuditLog_admin_fkey")
+
+  @@index([actorId])
+  @@index([entity])
+  @@index([entityId])
+  @@index([action])
+  @@index([createdAt])
+}
+
+model AgentTask {
+  id              String      @id @default(uuid())
+  agentType       AgentType
+  taskType        String
+  input           Json
+  output          Json?
+  status          String      @default("PENDING")
+  confidence      Float?
+  executionTimeMs Int?
+  error           String?
+  modelVersion    String?
+  createdAt       DateTime    @default(now())
+  completedAt     DateTime?
+  farmerId        String?
+  centerId        String?
+
+  @@index([agentType])
+  @@index([status])
+  @@index([farmerId])
+  @@index([centerId])
+  @@index([createdAt])
+}
+
+model AgentPrediction {
+  id              String   @id @default(uuid())
+  agentType       AgentType
+  entityType      String
+  entityId        String
+  inputSnapshot   Json
+  prediction      Json
+  confidence      Float
+  modelVersion    String
+  isUsed          Boolean  @default(false)
+  actualOutcome   Json?
+  createdAt       DateTime @default(now())
+
+  @@index([agentType])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}
+
+model AgentRecommendation {
+  id              String   @id @default(uuid())
+  agentType       AgentType
+  farmerId        String?
+  centerId        String?
+  recommendation  Json
+  explanation     String[]
+  confidence      Float
+  modelVersion    String
+  isAccepted      Boolean?
+  createdAt       DateTime @default(now())
+
+  @@index([agentType])
+  @@index([farmerId])
+  @@index([centerId])
+  @@index([createdAt])
+}
+
+model ForecastResult {
+  id              String   @id @default(uuid())
+  forecastType    String
+  centerId        String?
+  cropId          String?
+  date            DateTime @db.Date
+  forecast        Json
+  confidence      Float
+  factors         Json
+  modelVersion    String
+  actualValue     Json?
+  createdAt       DateTime @default(now())
+
+  @@index([forecastType])
+  @@index([centerId])
+  @@index([cropId])
+  @@index([date])
+}

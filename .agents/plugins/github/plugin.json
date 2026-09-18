@@ -1,0 +1,4 @@
+{
+  "name": "github-mcp",
+  "description": "GitHub Model Context Protocol integration for managing repositories, issues, pull requests, and git operations."
+}
